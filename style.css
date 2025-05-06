@@ -1,0 +1,30 @@
+.main_field{
+    background-color: rgb(171, 196, 197);
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.first{
+  display: grid;
+  grid-auto-flow: row;
+}
+
+.max_temp{
+    display: grid;
+}
+
+.add_temp{
+    display: grid;
+}
+
+.rem_temp{
+    display: grid;
+}
+
+.min_temp{
+    display: grid;
+}
+
+.curr_temp{
+    display: grid;
+}
