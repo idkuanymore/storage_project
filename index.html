@@ -13,23 +13,21 @@
 <body>
     <div class="main_field">
         <div class="first">
-            <div class="max_temp">100</div>
-            <div class="add_temp">добавить темп</div>
-            <div class="rem_temp">убрать темп</div>
-        </div>
-            <div class="controls"> 
-              <div>
-                  <button id="increase-temperature">Increase Max</button>
-                  <button id="decrease-temperature-max">Decrease Max</button>
-            </div>
-        <div class="second">
-            <div class="min_temp">123</div>
-            <div class="rem_temp">убрать темп</div>
-            <div class="add_temp">добавить темп</div>
-        </div>
-        <div class="third">
             <div class="curr_temp">текущая темп</div>
+            Current temp
         </div>
+        <div class="second">
+            <div class="max_temp"></div>
+            <button id="increase-temperature-max">Increase Max</button>
+            <button id="decrease-temperature-max">Decrease Max</button>
+        </div>
+                
+        <div class="third">
+            <div class="min_temp"></div>
+            <button id="increase-temperature-min">Increase Min</button>
+            <button id="decrease-temperature-min">Decrease Min</button>
+        </div>
+        
     </div>
     <script src="main.js"></script>
 </body>
