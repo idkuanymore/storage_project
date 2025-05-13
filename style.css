@@ -1,7 +1,34 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .main_field{
     background-color: rgb(171, 196, 197);
-  display: grid;
-  grid-auto-flow: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+
+}
+
+.first{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.second{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.third{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .max_temp{
@@ -31,11 +58,6 @@
 .controls {
     display: flex;
     justify-content: space-around;
-}
-
-.controls div {
-  display: flex;
-  flex-direction: column;
 }
 
 button {
