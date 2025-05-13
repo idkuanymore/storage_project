@@ -4,27 +4,27 @@
   grid-auto-flow: column;
 }
 
-.first{
-  display: grid;
-  grid-auto-flow: row;
-}
-
 .max_temp{
     display: grid;
+  padding: 5px;
 }
 
 .add_temp{
     display: grid;
+  padding: 5px;
 }
 
 .rem_temp{
     display: grid;
+  padding: 5px;
 }
 
 .min_temp{
     display: grid;
+  padding: 5px;
 }
 
 .curr_temp{
     display: grid;
+  padding: 5px;
 }
