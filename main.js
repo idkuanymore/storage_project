@@ -3,18 +3,16 @@ var CURRENT_MAX = 0
 
 async function loadTemperatureData() {
     try {
-      const response = await fetch('./data.json');
+      const response = await fetch('data.json');
       const data = await response.json();
       let curr_temp = document.querySelector('#currentTemperature')
-      const update_ct = () => {
         curr_temp.textContent = data.currentTemperature
-      }
     } catch (error) {
       console.error('Ошибка:', error);
     }
   }
 
-
+loadTemperatureData()
 
 let max_temp = document.querySelector('.max_temp')
   max_temp.innerHTML = CURRENT_MAX
@@ -43,4 +41,4 @@ document.querySelector('#decrease-temperature-min').addEventListener('click', fu
     min_temp.innerHTML = CURRENT_MIN
 })
 
-// асинхронная функция крч
+// проверка значений curr min curr max
