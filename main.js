@@ -1,6 +1,21 @@
 var CURRENT_MIN = 0
 var CURRENT_MAX = 0
 
+async function loadTemperatureData() {
+    try {
+      const response = await fetch('./data.json');
+      const data = await response.json();
+      let curr_temp = document.querySelector('#currentTemperature')
+      const update_ct = () => {
+        curr_temp.textContent = data.currentTemperature
+      }
+    } catch (error) {
+      console.error('Ошибка:', error);
+    }
+  }
+
+
+
 let max_temp = document.querySelector('.max_temp')
   max_temp.innerHTML = CURRENT_MAX
 
