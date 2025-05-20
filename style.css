@@ -1,9 +1,19 @@
-body{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e0eafc; /* Light blue-gray */
+  color: #333;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
+
+.module-title {
+  font-size: 2em;
+  color: #448aff; /* Blue accent */
+}
 
 .main_field{
     background-color: rgb(171, 196, 197);
