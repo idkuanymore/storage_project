@@ -45,6 +45,11 @@ body {
     display: grid;
   padding: 5px;
 }
+
+.temp-value {
+  display: block;
+  text-align: center;
+}
 .limits {
   display: flex;
   justify-content: center;
