@@ -45,6 +45,17 @@ body {
     display: grid;
   padding: 5px;
 }
+.limits {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.limit-item {
+  text-align: center;
+  background-color: FFFFF
+  ;
+  border-radius: 5px;
+}
 
 .add_temp{
     display: grid;
