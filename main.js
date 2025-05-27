@@ -17,11 +17,11 @@ async function loadTemperatureData() {
 loadTemperatureData()
 setInterval(loadTemperatureData, 5);
 
-let max_temp = document.querySelector('.max_temp')
-  max_temp.innerHTML = CURRENT_MAX
+let max_temp = document.querySelector('#max-temperature')
+max_temp.innerHTML = CURRENT_MAX
 
-  let min_temp = document.querySelector('.min_temp')
-    min_temp.innerHTML = CURRENT_MIN
+  let min_temp = document.querySelector('#min-temperature')
+  min_temp.innerHTML = CURRENT_MIN
 
 
 document.querySelector('#increase-temperature-max').addEventListener('click', function() {
