@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -13,32 +12,34 @@
 <body>
     <div class="main_field">
         <h1 class="module-title">Temperature Controller</h1>
-        <div class="first">
+        <div class="input-container">
+          <input type="text" id="cityInput" placeholder="Input city">
+          <button id="getWeather">Check weather</button>
+        </div>
+        <div class="temp-container">
             <div class="curr_temp">Current Temperature</div>
-            <span id="currentTemperature" class="temp-value">0</span>
+            <span id="currentTemperature" class="temp-value">0</span>°C
         </div>
         <div class="limits">
           <div class="limit-item">
             <strong>Max:</strong>
-          <span id="max-temperature" class="temp-value">0</span>
+            <span id="max-temperature" class="temp-value">0</span>°C
           </div>
           <div class="limit-item">
             <strong>Min:</strong>
-          <span id="min-temperature"class="temp-value">0</span>
+            <span id="min-temperature" class="temp-value">0</span>°C
           </div>
         </div>
-        <div class="second">
-            <div class="max_temp"></div>
-            <button id="increase-temperature-max">Increase Max</button>
-            <button id="decrease-temperature-max">Decrease Max</button>
+        <div class="controls">
+            <div class="control-group">
+                <button id="increase-temperature-max">Increase Max</button>
+                <button id="decrease-temperature-max">Decrease Max</button>
+            </div>
+            <div class="control-group">
+                <button id="increase-temperature-min">Increase Min</button>
+                <button id="decrease-temperature-min">Decrease Min</button>
+            </div>
         </div>
-                
-        <div class="third">
-            <div class="min_temp"></div>
-            <button id="increase-temperature-min">Increase Min</button>
-            <button id="decrease-temperature-min">Decrease Min</button>
-        </div>
-        
     </div>
     <script src="main.js"></script>
 </body>
