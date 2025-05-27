@@ -1,4 +1,4 @@
-const apiKey = '43e8105d22c7842f9ba09846d5091b84'; // OPENWEATHER API
+const apiKey = 'OPENWEATHER_API'; // OPENWEATHER API
 const currentTemperatureDisplay = document.getElementById('currentTemperature');
 const cityInput = document.getElementById('cityInput');
 const getWeatherButton = document.getElementById('getWeather');
